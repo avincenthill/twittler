@@ -1,5 +1,5 @@
 * {
-  font-family: Arial;
+  font-family: 'Georgia';
   position: relative;
 }
 
@@ -37,7 +37,6 @@ div {
   font-style: bold;
   border-style: solid;
   border-width: 0.2em;
-  font-family: Lobster;
   z-index: -3;
 }
 
