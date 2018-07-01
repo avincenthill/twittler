@@ -1,19 +1,57 @@
 * {
   font-family: Arial;
+  position: relative;
+}
+
+body {
+  z-index: -5;
 }
 
 div {
   text-align: left !important;
   font-size: 1.25em;
   padding: 0.2em;
+  padding-left: 19px;
   margin: 0.2em;
   border-color: #ff6600;
   background: #ffefe5;
   border-style: solid;
   border-width: 0.2em;
+  z-index: -4;
 }
 
 .tweetsWrapper {
   border: none;
   background: none;
+}
+
+.header {
+  text-align: center !important;
+  font-size: 50px;
+  padding: 0.2em;
+  margin: 0.2em;
+  border-color: #ff6600;
+  background: #ff6600;
+  color: white;
+  text-emphasis-color: white;
+  font-style: bold;
+  border-style: solid;
+  border-width: 0.2em;
+  font-family: Lobster;
+  z-index: -3;
+}
+
+.header:hover {
+  transform: translate(0px, -5px);
+  transform: scale(1.005);
+}
+
+.users {
+  text-decoration: underline;
+  color: #007acc;
+  position: relative;
+  z-index: 1;
+  border: none;
+  text-align: left !important;
+  padding-left: 0px;
 }
