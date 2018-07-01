@@ -1,5 +1,19 @@
 * {
   font-family: Arial;
-  text-align: center !important;
-  margin: auto !important;
+}
+
+div {
+  text-align: left !important;
+  font-size: 1.25em;
+  padding: 0.2em;
+  margin: 0.2em;
+  border-color: #ff6600;
+  background: #ffefe5;
+  border-style: solid;
+  border-width: 0.2em;
+}
+
+.tweetsWrapper {
+  border: none;
+  background: none;
 }
